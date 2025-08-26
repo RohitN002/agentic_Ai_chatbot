@@ -14,6 +14,9 @@ class GraphBuilder:
         self.graph_builder.add_edge(START,"chatbot")
         self.graph_builder.add_edge("chatbot", END)
 
+    def chatbot_with_tools_build_graph(self):
+        
+
     def setup_graph(self,usecase:str):
             if usecase=="Basic Chatbot"
               self.basic_chatbot_build_graph()   
